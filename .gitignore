@@ -1,0 +1,11 @@
+# Environment files - NEVER upload these
+backend/.env
+.env
+
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Build
+frontend/dist/
