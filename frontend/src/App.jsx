@@ -63,7 +63,7 @@ function AuthProvider({ children }) {
 }
 
 // ─── API Helper ───────────────────────────────────────────────────────────────
-const API = "http://localhost:5000/api";
+const API = "https://full-stack-ecommerce-project-production.up.railway.app/api";
 async function apiFetch(path, opts = {}, token = null) {
   const headers = { "Content-Type": "application/json" };
   if (token) headers["Authorization"] = `Bearer ${token}`;
